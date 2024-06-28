@@ -1,0 +1,58 @@
+.newspaper-card {
+  border: 1px solid #ddd;
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newspaper-card .card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.newspaper-card .card-body {
+  padding: 20px;
+}
+
+.newspaper-card .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.newspaper-card .card-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.newspaper-card .card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.newspaper-card .btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.newspaper-card .btn:hover {
+  background-color: #0056b3;
+}
