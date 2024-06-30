@@ -60,9 +60,8 @@ export class news extends Component {
   render(){
     return (
       <>
-      {<h1 className='my-3 text-center'>Daily Digest</h1> }
       {this.state.loading && <Spinner/>}
-      <div className='container'>
+      <div className='container my-5'>
       {!this.state.loading && this.state.articles.map((Element)=>{
       return <div className='m-3 d-inline-flex flex-xxl-row' key={Element.url}>
         <NewsCard title={Element.title} description={Element.description?Element.description.slice(0,157):""} imageUrl={Element.urlToImage} newsUrl={Element.url} author={Element.author} date={Element.publishedAt} source={Element.source.name}/>                
