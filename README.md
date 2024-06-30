@@ -1,4 +1,4 @@
-[Watch the demo](./preview.gif)
+[Watch the demo](./preview.mp4)
 
 # Getting Started with Create React App
 
